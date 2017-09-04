@@ -260,7 +260,7 @@ background-position:20%}
 
 .text{
   font-size:0.77rem;
-}
+  }
 
 .client{
   justify-content:flex-start;
@@ -284,7 +284,10 @@ background-position:20%}
 }
 
 .client p {
+  width:auto;
   font-size:0.77rem;
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 .copyright {
