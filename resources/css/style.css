@@ -1,0 +1,300 @@
+html{
+  font-family:"Helvetica", sans-serif;
+  font-size:18px;
+  line-height: 1.4;
+  }
+
+header {
+    height: 30rem;
+    background-image:url("../images/glasses-bg.png");
+    width:100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    padding-top:1rem;
+    }
+
+.mobile {
+  display:none;
+}
+
+.content {
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:cadetblue;
+    color:white;
+    }
+
+ul {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  }
+
+nav>ul>li>a {
+  padding-right:2rem;
+  text-decoration:none;
+  color:white;
+  }
+
+
+.logo {
+    height:1.5rem;
+    padding-left:2rem;
+    padding-right:1rem;
+    overflow:hidden;
+  }
+
+.logo img {
+    max-height:100%;
+    width:auto;
+    display:block;
+    }
+
+.banner{
+  display:flex;
+  justify-content:flex-end;
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+.message {
+  margin-top:10rem;
+  margin-right:-2rem;
+  font-weight:bold;
+  font-size:2rem;
+  line-height:1.2;
+  background-color:white;
+  padding:1.5rem 5rem;
+  }
+
+.conditions{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:3rem;
+  padding-bottom:3rem;
+  }
+
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  height:8rem;
+  }
+
+.image img {
+  max-width:100%;
+  height:auto;
+  display:block;
+  }
+
+.exams{
+  width:3.5rem;
+  padding-right:6rem;
+}
+
+.fittings, .delivery {
+  width:5rem;
+  }
+
+.delivery{
+  padding-left:6rem;
+}
+
+.text{
+  text-align:center;
+}
+
+.client{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding-bottom:5rem;
+  width:960px;
+  margin:0 auto;
+  }
+
+.philosophy, .appointments {
+  width:35%;
+  display:flex;
+  flex-direction:column;
+  align-items:left;
+  justify-content: flex-start;
+}
+
+.philosophy{
+  padding-right:5rem;
+}
+.client h1 {
+  font-weight:bold;
+  font-size:1rem;
+  text-align:left;
+  padding-left:1.25rem;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  width:10rem;
+  background-color:cadetblue;
+  color:white;
+}
+
+.client p{
+  width:100%;
+  padding-top:1rem;
+}
+
+.bottom {
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:azure;
+  padding-top:4rem;
+  padding-bottom:4rem;
+  display:flex;
+  align-items:center;
+}
+
+.logo-black {
+    height:1.5rem;
+    padding-right: 1rem;
+    padding-left:4rem;
+    overflow:hidden;
+    }
+
+.logo-black img {
+    max-height:100%;
+    width:auto;
+    display:block;
+    }
+
+@media only screen and (max-width: 1024px){
+
+header {
+height: 22rem;
+padding-top:0rem;
+}
+
+.message {
+  margin-top:5rem;
+  margin-right:2rem;
+  font-weight:bold;
+  font-size:1.33rem;
+  padding:0.75rem 4rem;
+  }
+
+.banner, .client, .bottom, .content {
+  width:100%;
+  margin:0;
+  }
+
+}
+
+@media only screen and (max-width: 760px){
+
+header {
+height: 17rem;}
+
+.company {
+  display:none;
+}
+
+.mobile {
+  display:block;
+}
+
+.desktop {
+  display:none;
+}
+
+.message {
+  margin-top:9rem;
+  margin-right:0rem;
+  margin-left:0rem;
+  font-weight:bold;
+  font-size:1rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  padding-left:0;
+  padding-right:0;
+  text-align:center;
+  width:100%;
+  }
+
+.conditions{
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  padding-top:3.77rem;
+  padding-bottom:3.77rem;
+  }
+
+.container {
+  height:auto;
+}
+.exams {
+  padding-right:0;
+}
+
+.delivery {
+  padding-left:0;
+}
+
+.fittings {
+  padding-top:1.54rem;
+  padding-bottom:1.54rem;
+}
+
+.image{
+  margin-bottom:1rem;
+}
+
+.text{
+  font-size:0.77rem;
+}
+
+.client{
+  justify-content:flex-start;
+  flex-direction:column;
+  align-items:center;
+  }
+
+.philosophy, .appointments {
+  width:100%;
+      }
+
+  .philosophy{
+    padding-right:0rem;
+    padding-bottom:4rem;
+  }
+
+.client h1 {
+  width:100%;
+  text-align:center;
+}
+
+.client p {
+  font-size:0.77rem;
+}
+
+.copyright {
+  display:none;
+}
+
+.logo-black {
+  padding:0;
+}
+
+.bottom {
+  justify-content:center;
+}
+
+}
