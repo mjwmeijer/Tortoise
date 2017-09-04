@@ -201,7 +201,8 @@ padding-top:0rem;
 @media only screen and (max-width: 760px){
 
 header {
-height: 17rem;}
+height: 17rem;
+background-position:20%}
 
 .company {
   display:none;
@@ -279,6 +280,7 @@ height: 17rem;}
 .client h1 {
   width:100%;
   text-align:center;
+  padding-left:0;
 }
 
 .client p {
